@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+<meta http-equiv="content-language" content="<{$xoops_langcode}>">
+<meta name="robots" content="<{$xoops_meta_robots}>">
+<meta name="Keywords" content="<{$xoops_meta_keywords}>">
+<meta name="Description" content="<{$xoops_meta_description}>">
+<meta name="rating" content="<{$xoops_meta_rating}>">
+<meta name="author" content="<{$xoops_meta_author}>">
+<meta name="copyright" content="<{$xoops_meta_copyright}>">
+ 
+<title><{$xoops_sitename}> -<{$xoops_pagetitle}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON"> 
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_themecss}>">
+<!-- RMV: added module header -->
+<{$xoops_module_header}>
+
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+<style type="text/css">
+</style>
+
+
+
+
+</head>
+<body link="#FFFF66" vlink="silver" alink="#66FFFF" text="#CCCCCC" bgcolor="#0F2A85"><p><?xml version="1.0" encoding="iso-8859-1"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"></p>
+<center>
+
+<table border="1" width="1000" style="border-width:1; border-style:ridge;"  bordercolordark="#666666" align="center" bordercolorlight="white">
+        <tr>
+            <td colspan="2" width="100%" valign="middle" align="center" style="border-width:1; border-style:ridge;"> 
+<div id="header">
+<div id="headerin">                     
+<div id="welcome"> 
+<b><font color="#000066">Welcome to  <{$xoops_sitename}> </font><a href="<{$xoops_url}>/user.php"><font color="#000066"><{$xoops_uname}></font></a><font color="#000066">!<br>We appreciate your visit.<br>Currently it is: <br>
+
+                            <script language="JavaScript" type="text/javascript" src="<{$xoops_url}>/themes/envision/clock.js">
+                            </script>
+</font><span id="clock"></span></div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+
+<p align="center"><! Header Menu Section>
+</p>
+            <td colspan="2" align="left" width="100%" style="border-width:1 border-style:ridge" valign="middle">
+<div id="maincontainer">
+   	 		<div id="menutop">
+			<a href="<{$xoops_url}>/modules/xoopspoll/">Polls</a>
+			<a href="<{$xoops_url}>/modules/icontent/index.php?page=41">Site Use</a>
+			<a href="<{$xoops_url}>/modules/liaise/">Contact Us</a>
+			<a href="<{$xoops_url}>/modules/xoopspartners">Partners</a>
+			<a href="<{$xoops_url}>/modules/globetrotter">GlobeTrotter-Guests</a>
+			<a href="<{$xoops_url}>/modules/xoopsmembers/">Members</a>
+			<a href="<{$xoops_url}>/modules/xdonations">Donations</a>
+			<a href="<{$xoops_url}>/modules/rss/"><img src="http://envision-it.org/images/rss.gif"></a><br>
+</div>
+</div> 
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" style="border-width:1; border-style:ridge;" align="center" width="100%">
+<div id="leftfloat">
+<div align="center"><div style="width:745px;">
+                            <{$xoops_contents}>
+</div>
+                        <! Main Web Page Combined Center Left & Center Right content sections>
+<div style ="width:745px;">
+                            <! Display Main Web Page content Left half section>
+
+                            <div style="width:45%; float:left;">
+                                <{foreach item=block from=$xoops_clblocks}>
+<div class="blockTitler">
+                                    <{$block.title}>
+</div>
+<div class="blockContentR">
+                                    <{$block.content}>
+</div>
+                                <{/foreach}>
+
+                            </div>
+                            <! Display Main Web Page content Right half section>
+                            <div style="text-align:center; width:45%; float:right;">
+                                <{foreach item=block from=$xoops_crblocks}>
+<div class="blockTitler">
+                                    <{$block.title}>
+</div>
+<div class="blockContentR">
+                                    <{$block.content}>
+</div>
+                                <{/foreach}>
+
+                            </div>
+</div>
+</div>
+</div>
+
+
+<p></p>
+                <p><! Display Main Web Page content Center Section>
+</p>
+<div style ="width:745px;">
+                    <{foreach item=block from=$xoops_ccblocks}>
+<div class="blockTitler"><{$block.title}>
+</div>
+<div class="blockContentR">
+                        <{$block.content}>
+</div>
+                    <{/foreach}>
+</div>
+                <! Right Combined Menu Bar-- includes Left and Right Menus from std. Xoops>					
+
+                <td style="border-width:1; border-style:ridge;" valign="top" bgcolor="#1445D2">
+<div id= "rightfloat">
+                        <{foreach item=block from=$xoops_rblocks}>
+<div class="blockTitler">
+                            <{$block.title}>
+</div>
+<div class="blockContentR">
+                            <{$block.content}>
+</div>
+                        <{/foreach}>
+<{foreach item=block from=$xoops_lblocks}>
+<div class="blockTitler">
+                            <{$block.title}>
+</div>
+<div class="blockContentL">
+                            <{$block.content}>
+</div>
+                        <{/foreach}>
+<div style="clear:both;"></div>
+
+    
+    
+                
+    
+    
+                
+                    </table>
+                </center>
+<div align="center">
+<center>
+<table cellspacing="0" width="500" border="0" bordercolordark="#FFFFFF" bordercolorlight="#000000" cellpadding="0" align="center"> 
+<tr align="center">
+                <td>
+                    <p align="center"><b>
+</b>This site is generously provided by 
+<a href="<{$xoops_url}>" target="_self"> 
+eirenicon l.l.c.</a>
+<br><a href="http://creativecommons.org/licenses/by-sa/2.0/" target="_blank"><img src="http://envision-it.org/themes/envision/cc.gif" width="88" height="31" border="0"></a><br><!-- Creative Commons License Webmaster, dont remove this text. It is denied by license!-->
+The Envision-IT site theme is licensed under a 
+<a href="http://creativecommons.org/licenses/by-sa/2.0/"target="_blank">
+Creative Commons License</a>
+<!-- /Creative Commons License -->
+                </p>
+                </td>
+</tr>
+</table>			
+</center>
+</div>
+</body>
+</html> 

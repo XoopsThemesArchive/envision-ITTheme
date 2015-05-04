@@ -1,0 +1,518 @@
+/*HTML ELEMENTS DEFINITION*/
+BODY {
+	background-color: black;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	color: Linen;
+	word-spacing: normal;
+	vertical-align: middle;
+	text-align: left;
+	letter-spacing: normal;
+	margin-bottom: 6px;
+	margin-left: 4px;
+	margin-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 6px;
+}
+tbody {}
+TD {
+	font-family:	Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	word-spacing: normal;
+	text-align: left;
+	letter-spacing: normal;
+	margin-bottom: 6px;
+	margin-left: 4px;
+	margin-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 6px;
+}
+A {
+	color: white;
+	text-decoration: none;
+}
+img {border: 0;}
+textarea {
+	font-family:	Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid silver;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	background-color: #0F2A55;
+	color: linen;
+}
+.login {
+	color: white;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid silver;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	background-color: #0F2A55;
+	text-align: center;
+}
+/*XOOPS COMMON TAGS*/
+.outer {
+	border-bottom: 1px solid gray;
+	border-right: 1px solid silver;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	font-size: 12px;
+	background-color: #0F2A85;
+}
+.outer a {
+	font-weight: normal;
+	color: White;
+	text-align: center;
+}
+.head {
+	background-color: #0F2A85;
+	font-size: 11px;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid silver;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+}
+.head a{
+	font-size: 11px;
+	font-weight: normal;
+	color: White;
+}
+.odd {
+	background-color: #262626;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+.even {
+	background-color: #262626;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.headforum {
+	background-color: #0F2A85;
+	font-size: 12px;
+	font-weight: normal;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid silver;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+}
+/*LAYOUT DEFINITION*/
+#header {
+	width: 100%;
+	margin-top: 4px;
+	margin-left: 0px;
+	margin-right: -4px;
+	background-color: #262626;
+}
+#headerin {
+	width: 100%;
+	height: 73px;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid silver;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	background-position: center;
+	background-image: url(images/logo.gif);
+}
+#maincontainer {
+	border-bottom: 1px solid gray;
+	border-right: 1px solid silver;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+}
+#leftfloat {
+	text-align: left;;
+	width: 850px;
+	height: auto;
+	float: left;	
+	border-bottom: 1px solid gray;
+	border-right: 1px solid silver;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	padding: 10px 6px 60px 6px;
+	margin-right: 1px;
+}
+#menubackground {
+	height: 21px;
+	font-size: 12px;
+	width:100%;
+	text-align: left;
+	vertical-align: middle;
+	color: white;
+	font-weight: bold;
+	background-image: transparent;
+}
+#menubackground a:hover{
+	color: Navy;
+	font-weight: bold;
+}
+#menutop {
+	height: 25px;
+	font-size: 12px;
+	width:100%;
+	text-align: center;
+	vertical-align: middle;
+	background-image: url(images/MenuTopBack.gif);
+}
+#menutop A{
+	padding: 4px 4px -4px 15px;
+	color: white;
+	font-weight: bold;
+	vertical-align: sub;
+	margin-left: 5px;
+	margin-right: 4px;
+}
+#menutop A:HOVER{
+	text-decoration: none;
+	color: Navy;
+}
+#rightfloat {
+	text-align: left;
+	float: right;
+	width: 145px;
+	vertical-align: top;
+	background-image: url(images/rightcolround.gif);
+	background-repeat: repeat-y;
+	text-indent: 3px;
+	margin-left: -2px;
+	padding-left: -5px;
+}
+#footer {
+	width: 900px;
+	height: 25px;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid silver;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	margin-top: 4px;
+	margin-bottom: 4px; 
+}
+#footerin {
+	width: 898px;
+	height: 23px;
+	background-color: #0D2C39;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid silver;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	clear: both;
+	color: Silver;
+}
+/*XOOPS FORMS*/
+#timezone_offset {
+	width: 350px;
+}
+#message {
+	width: 600px;
+}
+#subject {
+}
+/*NEWS MODULE DEFINITIONS*/
+.item {
+	width: 100%;
+	color: #C5C5C5;
+	font-weight: lighter;
+	margin-right: 4px;
+	padding: 10px;
+}
+.itemBody {
+	width: 100%;
+	padding: 10px 0px 10px 0px;
+}
+.itemHead {
+	width: 100%;
+	background-color: #0F2A85;
+	padding: 4px 4px 4px 4px;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid silver;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+}
+.itemText {
+	text-align: left;
+	width: 100%;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid silver;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	padding: 6px 6px 6px 6px;
+	background-color: Navy;
+}
+.itemText A{
+	color: white;
+	text-decoration: none;
+	padding: 7px;
+}
+.itemText img {
+	margin: 4px;
+	padding: 7px;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid silver;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+}
+.itemTitle {
+	font-size: 13px;
+	color: white;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-align: center;
+}
+.itemTitle A {
+	font-size: 13px;
+	color: white;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-align: center;
+}
+.itemTitle A:HOVER {
+	font-size: 13px;
+	color: gray;
+	text-decoration: bold;
+}
+.itemInfo {
+	font-size: 11px;
+	color: Linen;
+	background-color: #1D4FA1;
+	padding: 10px 4px 2px 10px;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid silver;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	text-align: right;
+}
+.small {
+	font-size: 12px;
+	color: Linen;
+	background-color: #1D4FA1;
+	padding: 10px 4px 2px 10px;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid silver;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	text-align: justify;
+}
+.itemFoot {
+	text-align: right;
+	vertical-align: top;
+	padding: 14px;
+}
+.itemFoot A {
+	color: #9C9C9C;
+	vertical-align: bottom;
+}
+#hometext {
+	width: 600px;
+}
+#bodytext {
+	width: 600px;
+}
+/*XOOPS FORUM MODULE*/
+.comTitle {
+	background-color: #20338A;
+	font-size: 13px;
+	font-weight: bold;
+}
+.comDate {
+	font-size: 9px;
+	color: White;
+}
+.submenu{
+	color: white;
+	font-size: 13px;
+	text-decoration: none;
+}
+.xoopsQuote {
+	background-color: Navy;
+	border: 1px solid Gray;
+	width: 600px;
+	overflow: auto;
+}
+.xoopsCode {
+	background-color: Navy;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid silver;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	padding: 4px;
+	margin: 4px;
+}
+/*XOOPS DOWNLOAD DEFINITION*/
+#shortcut {
+	border-bottom: 1px solid gray;
+	border-right: 1px solid silver;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	list-style: square;
+	color: White;
+	background-color: #1C65E3;
+}
+.evendownl {
+	background-color: #262626;
+}
+.evendownl A{
+	font-variant: small-caps;
+	font-size: 12px;
+	padding-left: 10px;
+	color: white;
+	font-weight: bold;
+}
+.odddown {
+	background-image: url(images/downltweenhigh.gif);
+}
+/*BLOCK LAYOUT DEFINITION*/
+.bg3 {
+	font-size: 11px;
+}
+.blockTitler {
+ 	border-bottom: 2px groove #518AE7;
+ 	font-size: 13px;
+ 	font-weight: bold;
+ 	color: white;
+ 	text-align: center;
+ 	padding: 10px;
+ }
+ .blockContentL{
+ 	font-size: 13px;
+}
+.blockContentR{
+	font-size: 13px;
+}
+.blockContent{
+	font-size: 13px;
+}
+.blogContents{
+	background-color: #262626;
+	padding: 6px;
+	font-size: 13px;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid silver;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+}
+
+.folder {
+	font-size: 11px;
+}
+.formButton{
+	font-size: 10px;
+}
+.link{
+	color: Lime;
+}
+.level1  {
+	font-size: 13px;
+ 	font-weight: bold;
+ 	color: white;
+ 	text-align: center;
+	border-bottom: 2px groove #518AE7;
+}
+.level2  {
+	font-size: 12px;
+ 	font-weight: bold;
+ 	color: gray;
+ 	text-align: center;
+	border-bottom: 2px groove #518AE7;
+}
+.term {
+ 	border-bottom: 2px groove #518AE7;
+ 	font-size: 13px;
+ 	font-weight: bold;
+ 	color: white;
+ 	text-align: center;
+ 	padding: 10px;
+ 	padding-bottom: 6px;
+ }
+/*MAIN MENU NAVIGATION*/
+#mainmenu {
+	width: 140px;
+}
+#mainmenu a {
+	text-align: left;
+	display: block;
+	margin: 0;
+	margin-top: 2px;
+	font-weight: bold;
+}
+#mainmenu a:hover{
+	background-color: #262626;
+	color: Navy;
+}
+#mainmenu a.menuTop {
+	padding-left: 3px;
+	background-color: transparent;
+	text-decoration: none; 
+	border-bottom: 2px groove #518AE7;
+}
+#mainmenu a:hover.menuTop {
+	background-image: url(images/MenuTopHover.gif);
+}
+#mainmenu a.menuMain {
+	padding-left: 3px;
+	background-color: transparent;
+	text-decoration: none; 
+	border-bottom: 2px groove #518AE7;
+	color: white;
+	font-weight: bold;
+	background-color: transparent;
+}
+#mainmenu a:hover.menuMain {
+	padding-left: 3px;
+	background-image: url(images/MenuTopHover.gif); 
+	text-decoration: none; 
+	border-bottom: 2px groove #518AE7;
+	color: Navy;
+}
+#mainmenu a.menuSub {
+	padding-left: 15px;
+	background-color: transparent;
+	text-decoration: none; 
+	border-bottom: 2px groove #518AE7;
+	color: white;
+	font-weight: normal;
+}
+#mainmenu a:hover.menuSub{
+	background-image: url(images/MenuTopHover.gif); 
+	color: Navy;
+}
+#usermenu {
+	width: 140px;
+}
+#usermenu a {	
+	background-color: transparent;
+	text-align:left; 
+	display: block; 
+	margin: 0; 
+	text-align: left;
+	display: block;
+	margin: 0;
+	margin-top: 2px;
+	color: white;
+	font-weight: bold;
+	border-bottom: 2px groove #518AE7;
+	}
+#usermenu a:hover{
+	background-image: url(images/MenuTopHover.gif);
+	color: Navy;
+}
+#usermenu a.menuTop {
+	color: white;
+}
+#usermenu a.highlight {}
+#welcome {
+	float: right;	
+	padding: 6px 0px 0px 6px;
+	font-size: 12px;
+	width:250px;
+	text-align: center;
+	background-color: transparent;
+	color: Navy;
+}
